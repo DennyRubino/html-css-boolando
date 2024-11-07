@@ -1,0 +1,63 @@
+/*----------
+   RESET
+----------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*--------
+   GENERAL
+--------*/
+header {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+background-color: #FF6900;
+padding: 15px;
+position: sticky;
+top: 0;}
+
+.header .container {
+max-width: 100%;
+display: flex;
+}
+.space{
+    max-width: 33%;
+    justify-content: space-around;
+    display: flex;
+}
+.space-1{    max-width: 33%;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    left: 70%;
+    bottom: 41px;
+
+}
+/*--------
+THYPOGRAPHY
+--------*/
+.white {color: #FFF9F5;
+cursor: pointer;}
+
+.text {font-family: "Roboto", serif;
+font-weight: 400;
+font-style: normal;
+}
+.logo {
+    width: 100px;
+        height: auto;
+        justify-self: center;
+        display: flex;
+        position: relative;
+        bottom: 21px;}
+.imgshow { width: 100px;
+    width: 30%;
+    height: auto;
+    justify-self: center;
+    display: flex;
+    position: relative;
+    right: 24%;
+    margin: 10px;
+}
