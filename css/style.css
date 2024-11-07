@@ -10,12 +10,13 @@
    GENERAL
 --------*/
 header {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-background-color: #FF6900;
-padding: 15px;
-position: sticky;
+    width: 100%;
+    background-color: #FF6900;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 10;}
+.sticky{position: sticky;
 top: 0;}
 
 .header .container {
@@ -52,12 +53,91 @@ font-style: normal;
         display: flex;
         position: relative;
         bottom: 21px;}
-.imgshow { width: 100px;
-    width: 30%;
+
+.imgshow { 
+    width: 27%;
     height: auto;
     justify-self: center;
     display: flex;
-    position: relative;
-    right: 24%;
+    position: absolute;
+    right: 62%;
     margin: 10px;
-}
+    z-index: -1;
+    }
+   
+    .imgshow-2 {width: 100px;
+        width: 27%;
+        height: auto;
+        justify-self: center;
+        display: flex;
+        position: absolute;
+        right: 34%;
+        margin: 10px;
+        z-index: -1;}
+
+        .imgshow-3 { width: 100px;
+            width: 27%;
+            height: auto;
+            justify-self: center;
+            display: flex;
+            position: absolute;
+            right: 6%;
+            margin: 10px;
+            z-index: -1;}
+
+            .imgshow-4 { width: 100px;
+                width: 30%;
+                height: auto;
+                justify-self: center;
+                display: flex;
+                position: absolute;
+                right: 62%;
+                margin: 10px;
+                z-index: -1;
+                top: 100%;}
+
+                .imgshow-5 {   width: 100px;
+                    width: 30%;
+                    height: auto;
+                    justify-self: center;
+                    display: flex;
+                    position: absolute;
+                    right: 34%;
+                    margin: 10px;
+                    z-index: -1;
+                    top: 100%;}
+
+                    .imgshow-6 { idth: 100px;
+                        width: 30%;
+                        height: auto;
+                        justify-self: center;
+                        display: flex;
+                        position: absolute;
+                        right: 6%;
+                        margin: 10px;
+                        z-index: -1;
+                        top: 100%}
+
+                        .img-container {
+                            display: flex;
+                            justify-content: space-around; 
+                            flex-wrap: wrap; 
+                            gap: 10px; 
+                            margin: 20px auto; }
+                        
+                        .img-container img {
+                            width: 27%; 
+                            height: auto; 
+                            max-width: 100%; 
+                            object-fit: cover;
+                        }
+                        .rectangle {
+                            position: absolute;
+                            top: 10%;
+                            left: 10%;
+                            width: 10px; /* Larghezza del rettangolo rosso */
+                            height: 50%;
+                            background-color: red;
+                            z-index: 1;
+                        }
+                        
