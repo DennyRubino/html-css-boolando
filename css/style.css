@@ -8,20 +8,22 @@
 }
 /*--------
    GENERAL
+   
 --------*/
 header {
     width: 100%;
     background-color: #FF6900;
-    padding: 15px;
+    padding: 15px 0;
     position: sticky;
     top: 0;
-    z-index: 10;}
-.sticky{position: sticky;
-top: 0;}
+    z-index: 10;
+}
 
 .header .container {
-max-width: 100%;
-display: flex;
+    display: flex;
+    justify-content: space-between; /* Spaziatura tra gli elementi */
+    align-items: center; /* Allineamento verticale */
+    padding: 0 20px; /* Spaziatura laterale */
 }
 .space{
     max-width: 33%;
@@ -55,7 +57,7 @@ font-style: normal;
         bottom: 21px;}
 
 .imgshow { 
-    width: 27%;
+    width: 10%;
     height: auto;
     justify-self: center;
     display: flex;
@@ -65,8 +67,8 @@ font-style: normal;
     z-index: -1;
     }
    
-    .imgshow-2 {width: 100px;
-        width: 27%;
+    .imgshow-2 {
+        width: 25%;
         height: auto;
         justify-self: center;
         display: flex;
@@ -86,7 +88,7 @@ font-style: normal;
             z-index: -1;}
 
             .imgshow-4 { width: 100px;
-                width: 30%;
+                width: 27%;
                 height: auto;
                 justify-self: center;
                 display: flex;
@@ -97,7 +99,7 @@ font-style: normal;
                 top: 100%;}
 
                 .imgshow-5 {   width: 100px;
-                    width: 30%;
+                    width: 27%;
                     height: auto;
                     justify-self: center;
                     display: flex;
@@ -107,8 +109,8 @@ font-style: normal;
                     z-index: -1;
                     top: 100%;}
 
-                    .imgshow-6 { idth: 100px;
-                        width: 30%;
+                    .imgshow-6 { width: 100px;
+                        width: 27%;
                         height: auto;
                         justify-self: center;
                         display: flex;
@@ -131,13 +133,160 @@ font-style: normal;
                             max-width: 100%; 
                             object-fit: cover;
                         }
-                        .rectangle {
+                        .rectangle-red {
                             position: absolute;
-                            top: 10%;
-                            left: 10%;
-                            width: 10px; /* Larghezza del rettangolo rosso */
-                            height: 50%;
+                            top: 90%;
+                            left: 10.4%;
+                            width: 3%;
+                            height: 2%;
                             background-color: red;
                             z-index: 1;
+                            font-size: 12px;
+                            color: white;
+                        }
+                        .rectangle-red-2 {
+                            position: absolute;
+                            top: 90%;
+                            left: 38.5%;
+                            width: 3%;
+                            height: 2%;
+                            background-color: red;
+                            z-index: 1;
+                            font-size: 12px;
+                            color: white;
+                        }
+                        
+                        .rectangle-red-3 {
+                            position: absolute;
+                             top: 90%;
+                              left: 67.4%;
+                               width: 3%;
+                                height: 2%;
+                                 background-color: red;
+                                 z-index: 1;
+                                 font-size: 12px;
+                                  color: white;
+                        }
+                        .rectangle-red-4 {
+                            position: absolute;
+                            bottom: -78%;
+                            left: 10.4%;
+                            width: 3%;
+                            height: 2%;
+                            background-color: red;
+                            z-index: 1;
+                            font-size: 12px;
+                            color: white;;
+                        }
+                        
+
+                        .rectangle-green {position: absolute;
+                            top: 90%;
+                            left: 14%;
+                            width: 7%;
+                            height: 2%;
+                            background-color: green;
+                            z-index: 1;
+                            font-size: 12px;
+                            color: white;}
+
+                                
+
+                                    .rectangle-green-4 {position: absolute;
+                                        bottom: -78%;
+                                        left: 15%;
+                                        width: 7%;
+                                        height: 2%;
+                                        background-color: green;
+                                        z-index: 1;
+                                        font-size: 12px;
+                                        color: white;}
+
+                                    
+
+                                            .rectangle-green-6 {    position: absolute;
+                                                bottom: -78%;
+                                                left: 67%;
+                                                width: 7%;
+                                                height: 2%;
+                                                background-color: green;
+                                                z-index: 1;
+                                                font-size: 12px;
+                                                color: white;
+                                            }
+
+                                                
+                        .heart{position: absolute;
+                            top: 25%;
+                            left: 34%;
+                            width: 3%;
+                            height: 6%;
+                            background-color: white;
+                            z-index: 1;
+                            font-size: 30px;
+                            text-align: center;
+                            cursor: pointer;
+                            }
+                            .heart-2{position: absolute;
+                                top: 25%;
+                                left: 62%;
+                                width: 3%;
+                                height: 6%;
+                                background-color: white;
+                                z-index: 1;
+                                font-size: 30px;
+                                text-align: center;
+                                cursor: pointer;
+                                }
+                                .heart-3{position: absolute;
+                                    top: 25%;
+                                    left: 90%;
+                                    width: 3%;
+                                    height: 6%;
+                                    background-color: white;
+                                    z-index: 1;
+                                    font-size: 30px;
+                                    text-align: center;
+                                    cursor: pointer;
+                                }    
+                                    
+                                    .heart-4{    position: absolute;
+                                        bottom: -13%;
+                                        left: 34%;
+                                        width: 3%;
+                                        height: 6%;
+                                        background-color: white;
+                                        z-index: 1;
+                                        font-size: 30px;
+                                        text-align: center;
+                                        cursor: pointer;
+                                    }
+                                    
+                                        .heart-5{position: absolute;
+                                            bottom: -13%;
+                                            left: 62%;
+                                            width: 3%;
+                                            height: 6%;
+                                            background-color: white;
+                                            z-index: 1;
+                                            font-size: 30px;
+                                            text-align: center;
+                                            cursor: pointer;
+                                            }
+                                            .heart-6{position: absolute;
+                                                bottom: -13%;
+                                                left: 90%;
+                                                width: 3%;
+                                                height: 6%;
+                                                background-color: white;
+                                                z-index: 1;
+                                                font-size: 30px;
+                                                text-align: center;
+                                                cursor: pointer;
+                                                }
+                        .container {
+                            max-width: 1000px;
+                            margin-left: auto;
+                            margin-right: auto;
                         }
                         
